@@ -1,7 +1,3 @@
-import React from "react";
-import './Nav.css'
-
-export default props => 
-    <aside className="nav">
-        Navegaçao
-    </aside>
+import Nav from '../itemtemplate/Navitems'
+export default props => <Nav icon ="users" title="Inicio" iconuser="iconus" users="Consulta/Cadastro/Exclusão"/>
+  

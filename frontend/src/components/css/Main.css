@@ -1,0 +1,14 @@
+main > div{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(196, 195, 195);
+}
+
+
+@media(max-width:579px){
+    main{
+        padding:0px;
+        margin:0 auto;
+        position: relative;
+        top:0px
+    }
+}
